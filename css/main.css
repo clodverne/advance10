@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../fonts/OpenSans.eot");
+  src: url("../fonts/OpenSans.eot?#iefix") format('embedded-opentype'),url("../fonts/OpenSans.woff2") format('woff2'),url("../fonts/OpenSans.woff") format('woff'),url("../fonts/OpenSans.ttf") format('truetype'),url("../fonts/OpenSans.svg#OpenSans") format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansSemibold';
+  src: url("../fonts/OpenSans-Semibold.eot");
+  src: url("../fonts/OpenSans-Semibold.eot?#iefix") format('embedded-opentype'),url("../fonts/OpenSans-Semibold.woff2") format('woff2'),url("../fonts/OpenSans-Semibold.woff") format('woff'),url("../fonts/OpenSans-Semibold.ttf") format('truetype'),url("../fonts/OpenSans-Semibold.svg#OpenSans-Semibold") format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.reg {
+  font-family: 'OpenSans',sans-serif;
+}
+
+.semibold {
+  font-family: 'OpenSansSemibold',sans-serif;
+}
+
+header {
+  height: 68rem;
+  text-align: center;
+}
+
+.header-top {
+  height: 15rem;
+}
+
+.header-logo {
+  margin-top: 5.5rem;
+}
+
+.header-logo_one,
+.header-logo_two {
+  font-family: 'OpenSansSemibold',sans-serif;
+  color: #fd8d77;
+  font-size: 50px;
+}
+
+.header-logo_two {
+  color: #585858;
+}
+
+.header-logo_text {
+  font-family: 'OpenSans',sans-serif;
+  color: rgba(65,65,65,.702);
+  font-size: 16px;
+}
+
+.header-nav {
+  margin-top: 12rem;
+}
+
+.header-nav .nav-block {
+  height: 26rem;
+  width: 26rem;
+  margin-bottom: 4rem;
+}
+
+.header-nav .nav-block:hover {
+  box-shadow: 0 0 20px rgba(0,0,0,.3);
+}
+
+.header-nav .nav-block_one {
+  background-color: #4eb2f7;
+}
+
+.header-nav .nav-block_two {
+  background-color: #c049f8;
+}
+
+.header-nav .nav-block_three {
+  background-color: #817eff;
+}
+
+.header-nav .nav-block_four {
+  background-color: #f74770;
+}
+
+.header-nav .nav-icon {
+  padding-top: 4.5rem;
+  padding-bottom: 2rem;
+}
+
+.header-nav .fa {
+  font-size: 50px;
+  color: rgba(255,255,255,.8);
+}
+
+.header-nav .nav-caption {
+  font-family: 'OpenSansSemibold',sans-serif;
+  color: rgba(255,255,255,.749);
+  font-size: 20px;
+}
+
+.header-btn,
+.header-nav .nav-text {
+  margin-top: 1.5rem;
+  font-family: 'OpenSans',sans-serif;
+  color: rgba(255,255,255,.749);
+  font-size: 15px;
+}
+
+.header-nav .icon-plus {
+  margin-right: 1rem;
+  margin-bottom: .1rem;
+}
+
+.header-btn {
+  margin-top: 2.1rem;
+  display: inline-block;
+  height: 5.5rem;
+  width: 23rem;
+  border: 0;
+  border-radius: 27px;
+  background-color: #fff;
+  color: rgba(0,0,0,.702);
+  font-size: 16px;
+}
+
+.header-btn:hover {
+  box-shadow: 0 6px 14px 0 rgba(20,20,21,.09);
+}
