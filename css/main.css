@@ -92,6 +92,12 @@ header {
   color: rgba(255,255,255,.8);
 }
 
+.header-nav .fa-camera-retro {
+  -webkit-transform: rotate(-18deg);
+  -ms-transform: rotate(-18deg);
+  transform: rotate(-18deg);
+}
+
 .header-nav .nav-caption {
   font-family: 'OpenSansSemibold',sans-serif;
   color: rgba(255,255,255,.749);
@@ -125,4 +131,8 @@ header {
 
 .header-btn:hover {
   box-shadow: 0 6px 14px 0 rgba(20,20,21,.09);
+}
+
+.header-btn:focus {
+  outline: 0;
 }
