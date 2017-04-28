@@ -54,10 +54,11 @@ header {
 
 .header-nav {
   margin-top: 12rem;
-  margin: auto;
+  
 }
 
 .header-nav .nav-block {
+  margin: auto;
   height: 26rem;
   width: 26rem;
   margin-bottom: 4rem;
